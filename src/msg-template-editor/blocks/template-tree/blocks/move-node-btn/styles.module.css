@@ -1,0 +1,22 @@
+
+.move-btn {
+    display: inline-flex;
+    width: min-content;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.move-btn__cancel {
+    color: #fff;
+    width: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff0000;
+}
+
+.move-btn__here {
+    min-width: 30px;
+    cursor: pointer;
+    border: none;
+    padding: 2px 10px;
+}

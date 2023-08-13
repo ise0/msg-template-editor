@@ -1,0 +1,13 @@
+.if-block {
+    position: relative;
+    display: grid;
+    row-gap: 10px;
+}
+
+.if-block::before {
+    background-color: #000;
+    position: absolute;
+    content: '';
+    width: 0.5px;
+    height: 100%;
+}

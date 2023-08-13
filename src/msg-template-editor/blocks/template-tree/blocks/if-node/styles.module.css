@@ -1,0 +1,45 @@
+.textarea {
+    width: 240px;
+    height: 25px;
+    padding: 5px;
+    resize: none;
+    overflow: hidden;
+}
+
+.childs {
+    margin: 10px 0 0 20px;
+    display: grid;
+    row-gap: 10px;
+}
+
+.childs:empty {
+    display: none;
+}
+
+.container {
+    margin-left: 2px;
+    display: flex;
+}
+
+.if-title {
+    margin-left: 5px;
+    white-space: nowrap;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.then-title {
+    white-space: nowrap;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+}

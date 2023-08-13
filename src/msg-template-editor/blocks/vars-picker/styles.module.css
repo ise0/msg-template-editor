@@ -1,0 +1,43 @@
+.vars-picker {
+    width: 200px;
+}
+
+.vars {
+    overflow-x: auto;
+}
+
+.var-input {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.var {
+    display: inline-flex;
+    margin: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.var__del-btn {
+    color: #fff;
+    width: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #6c6cff;
+}
+
+.var__add-btn {
+    font-size: 14px;
+    min-width: 30px;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+}

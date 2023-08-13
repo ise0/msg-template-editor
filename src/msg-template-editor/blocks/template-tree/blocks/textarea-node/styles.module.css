@@ -1,0 +1,13 @@
+.container {
+    margin-left: 2px;
+    display: flex;
+}
+
+.textarea {
+    margin-left: 5px;
+    width: 300px;
+    height: 25px;
+    padding: 5px;
+    resize: horizontal;
+    overflow: hidden;
+}

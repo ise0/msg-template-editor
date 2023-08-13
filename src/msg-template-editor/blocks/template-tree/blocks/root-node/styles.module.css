@@ -1,0 +1,20 @@
+.childs {
+    margin: 10px 0 0;
+    display: grid;
+    row-gap: 10px;
+}
+
+.childs:empty {
+    display: none;
+}
+
+.container {
+    margin-left: 2px;
+    display: flex;
+}
+
+.title {
+    white-space: nowrap;
+    margin-left: 5px;
+    font-size: 20px;
+}

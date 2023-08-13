@@ -1,0 +1,11 @@
+.show-btn {
+  display: block;
+  margin: calc(50vh - 20px) auto 0;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 3px;
+  background: #414141;
+  color: #fff;
+}
